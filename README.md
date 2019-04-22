@@ -1,4 +1,4 @@
 # My personal website
 
-This is my personal website, modified from [Yihui He's personal website](https://yihui-he.github.io/)
+This is my personal website, modified from © Yangqing Jia 2017(http://daggerfs.com/)
 
