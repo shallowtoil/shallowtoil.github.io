@@ -14,8 +14,7 @@ body {
   font-weight: 300;
   background-color: #fdfdfd;
 }
-
-#footer {
+.footer {
   position:fixed;
   bottom:0;
 }
