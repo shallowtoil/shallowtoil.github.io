@@ -37,6 +37,11 @@
     height: auto !important;
 }
 
+#footer {
+  position: fixed;
+  bottom: 0;
+}
+
 @media (max-width: 1200px) {
     #photos {
         -moz-column-count:    4;
