@@ -85,7 +85,7 @@
             <p>
                 Currently I'm a research intern in <a target="_blank" href="http://kypt.nwpu.edu.cn/index.php?c=content&a=show&id=288">Key Laboratory of Speech and Image Processing</a> under the supervision of Prof. <a target="_blank" href="http://teacher.nwpu.edu.cn/pengwang.html">Peng Wang</a>. Particularly, I'm now working on optimizing trackers based siamese network.</p>
             <p>
-                For other misc parts, I'm also a public speaker, a BP debater and a media worker. For more info, welcome to visit my youtube channel or shout me at social media.</p>
+                Additionally, I'm also a public speaker and a British Parliamentary (BP) debater. For more information, you're welcomed to shout me at social media.</p>
             
             <!--
             <p>
@@ -104,38 +104,35 @@
             <h3>
                 <a name="publications"></a> Publications
             </h3>
-            <!--
+
+            <h4>
+                <a name="workingpaper"></a> Working Papers
+            </h4>
+
             <div class="media">
                 <a name="softer" class="pull-left">
-                    <img class="media-object" src="https://raw.githubusercontent.com/yihui-he/softer-NMS/master/demo/output/softer.png" width="96px" height="96px">
+                    <img class="media-object" src="./assets/paper/DROL.png" width="125px" height="125px">
                 </a>
                 <div class="media-body">
-                    <p class="media-heading">
+                	<ul>
+                	<li><p class="media-heading">
                         <strong>
-                             Softer-NMS: Rethinking Bounding Box Regression for Accurate Object Detection
-                     </strong><br>
-                        <strong>Yihui He</strong>, Xiangyu Zhang, <a target="_blank" href="https://www.cs.cmu.edu/~kkitani/">Kris Kitani</a> and <a target="_blank" href="http://www.cmu-biometrics.org/">Marios Savvides</a>
+                             Discriminative and Robust Online Learning for Siamese Visual Tracking
+                        </strong>
                         <a target="_blank"
-                           href="https://arxiv.org/abs/1809.08545">[arXiv]</a>  
+                           href="https://arxiv.org/abs/1909.02959">[arXiv]</a>  
                         <a target="_blank"
-                           href="https://github.com/yihui-he/softer-NMS">[code]</a>  
-                        
-                        
-                    </p>
-                    <p class="abstract-text">
-                        We introduce a novel bounding box regression loss for learning bounding box transformation and localization variance together. The resulting localization variance is utilized in our new non-maximum suppression method to improve localization accuracy for object detection. On MS-COCO, we boost the AP of VGG-16 faster R-CNN from 23.6% to 29.1% with a single model and nearly no additional computational overhead. More importantly, our method improves the AP of ResNet-50 FPN fast R-CNN from 36.8% to 37.8%, which achieves state-of-the-art bounding box refinement result.
-                    </p>
+                           href="https://github.com/shallowtoil/DROL">[code]</a> <br>
+                        <strong>Jinghao Zhou</strong>, Peng Wang, and Haoyang Sun 
+                    </p></li></ul>
+<!--                     <p class="abstract-text">
+                        The problem of visual object tracking has traditionally been handled by variant tracking paradigms, either learning a model of the object's appearance exclusively online or matching the object with the target in an offline-trained embedding space. Despite the recent success, each method agonizes over its intrinsic constraint. The online-only approaches suffer from a lack of generalization of the model they learn thus are inferior in target regression, while the offline-only approaches (e.g., convontional siamese trackers) lack the video-specific context information thus are not discriminative enough to handle distractors. Therefore, we propose a parallel framework to integrate offline-trained siamese networks with a lightweight online module for enhance the discriminative capability. We further apply a simple yet robust template update strategy for siamese networks, in order to handle object deformation. Robustness can be validated in the consistent improvement over three siamese baselines: SiamFC, SiamRPN++, and SiamMask. Beyond that, our model based on SiamRPN++ obtains the best results over six popular tracking benchmarks. Though equipped with an online module when tracking proceeds, our approach inherits the high efficiency from siamese baseline and can operate beyond real-time.
+                    </p> -->
                 </div>
             </div>
-			-->
-         	<p>
-                Working towards...
-            </p>
 
 
-            <!--
-             *** Projects ***
-            -->
+
             <h3>
                 <a name="projects"></a> Projects
             </h3> 
