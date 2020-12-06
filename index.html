@@ -20,7 +20,7 @@
         <a href="#publications">Publications  </a>
         <a href="#projects">Projects  </a>
         <a href="#reseachinterests">Research Interests </a>
-        <a target="_blank" href="https://drive.google.com/open?id=1E13QoksnLJdSM6pRwLiHcXQGzufhyW89">CV</a>
+        <a target="_blank" href="https://drive.google.com/file/d/1NBKHyfjq2kYe6HrbMM7r8jtr0uoaIamq/view?usp=sharing">CV</a>
 </div>
 
 <body>
@@ -41,7 +41,7 @@
         <hr class="hidden-phone">
         <div class="text-center hidden-phone">
             <img src="assets/ico/me.png" alt="photo" class="logo-image"><br><br>
-            <p> Email: jensen zhoujh at gmail com</p>
+            <p> Email: jensen dot zhoujh at gmail com</p>
         </div>
 
         <!-- Otherwise, we simply use a flat list of links -->
@@ -79,7 +79,7 @@
             </a>
 
             <p>
-                I'm an undergraduate student at <a target="_blank" href="https://www.nwpu.edu.cn/">Northwestern Polytechnical University</a>. Currently I'm a research intern in <a target="_blank" href="http://kypt.nwpu.edu.cn/index.php?c=content&a=show&id=288">Key Laboratory of Speech and Image Processing</a> under the supervision of Prof. <a target="_blank" href="http://teacher.nwpu.edu.cn/pengwang.html">Peng Wang</a>.
+                I'm an undergraduate student at <a target="_blank" href="https://www.nwpu.edu.cn/">Northwestern Polytechnical University</a>. I'm a research intern in <a target="_blank" href="http://kypt.nwpu.edu.cn/index.php?c=content&a=show&id=288">SenseTime Group Limited</a> working with <a target="_blank" href="http://bo-li.info/">Bo Li</a> and Prof. <a target="_blank" href="https://wlouyang.github.io/">Wanli Ouyang</a>.
             </p>
             
             <!--
@@ -92,17 +92,23 @@
             -->
             
             <div class="infoblock">
-            	<p> NEWS: I'm now looking for part-time intership.</p>
+            	<p> NEWS: </p>
+                <ul><p class="media-heading">
+                    <!-- <li>2021/2/19: 2 papers accepted at CVPR 2021.</li> -->
+                    <li>2019/11/11: 1 paper accepted at AAAI 2020.</li>
+                </p></ul>
             </div>
 
             <!--
              *** Publications ***
             -->
             <h3>
-                <a name="publications"></a> Publications
+                <a name="publications"></a> Selected Publications
             </h3>
 
-			<h4>Conference and Journals</h4>
+            Full Publications: <a target="_blank" href="https://scholar.google.com/citations?user=AoDJADEAAAAJ&hl=en">Google Scholar</a><br> 
+			
+            <!--<h4>Conference and Journals</h4> -->
             <div class="media">
                 <div class="media-body">
                 	<p>2020</p>
@@ -131,7 +137,7 @@
             
             <div class="media">
                 <div class="pull-left">
-                    <img class="media-object" src="./assets/robotics/IFMV.png" width="125px" height="125px">
+                    <img class="media-object" src="./assets/projects/IFMV.png" width="125px" height="125px">
                 </div>
                 <div class="media-body">
                 	<ul>
@@ -170,13 +176,53 @@
             </div>
 
             <div class="media">
-            	<h4>Object Detection, Search and Tracking</h4>
+                <h4>Image-Level Recognition</h4>
+                <div class="pull-left">
+                    <img class="media-object" src="./assets/cv/cls.png" width="150px" height="150px">
+                </div>
+                <div class="media-body">
+                    <p class="abstract-text">
+                        Image-level recognition preceive one image as a whole. Traditional image-level recognition resolves around <strong>image classification</strong>, or <strong>action recognition</strong> in a video level.
+                        Related topics in low data regime include <strong>image retrival (re-indentification)</strong>, and <strong>few-shot learning</strong>, etc.
+                        Other topics with limited labelled data, such as <strong>unsupervised learning</strong> and <strong>semisupervised learning</strong> have the potential to enrich deep model's visual understanding.
+                    </p>
+                </div>
+            </div>
+
+<!--             <div class="media">
+                <h4>Pixel-Level Recognition</h4>
                 <div class="pull-left">
                     <img class="media-object" src="./assets/cv/SiamDW-Pytorch.png" width="150px" height="150px">
                 </div>
                 <div class="media-body">
                     <p class="abstract-text">
                         It's well known to us that object detection is a combinational task of object classification and object localization. While diverse pipelines and enhancement of object detecion has been extensively explored in recent years, relative tasks including few-shot object detection, general object search await further investigation. Object tracking, from a unified perspective, can be deemed as a task of object search in video level.
+                    </p>
+                </div>
+            </div> -->
+
+            <div class="media">
+            	<h4>Object-Level Recognition</h4>
+                <div class="pull-left">
+                    <img class="media-object" src="./assets/cv/SiamDW-Pytorch.png" width="150px" height="150px">
+                </div>
+                <div class="media-body">
+                    <p class="abstract-text">
+                        Object-level recognition requires both classification and localization of objects of interest in a image. Tranditional object-level recognition includes <strong>object detection</strong> and <strong>instance segmentation</strong> in either image (2D/3D) or video level.
+                        Related topics under low data regime, such as <strong>few-shot object detection, object tracking</strong> or under weakly-supervised training scheme, such as <strong>weakly-supervised object detection</strong> await further investigation. 
+                    </p>
+                </div>
+            </div>
+
+            <div class="media">
+                <h4>Vision and Langauge</h4>
+                <div class="pull-left">
+                    <img class="media-object" src="./assets/cv/12in1.png" width="150px" height="150px">
+                </div>
+                <div class="media-body">
+                    <p class="abstract-text">
+                        A compelling reson to study language and vision jointly is the promise of language as a universal and natural interface for visual reasoning porblems - useful both in speecifying a wide range of problems and in commuicating AI responses. 
+                        Related topics include <strong> caption, visual question answering, and referring expression</strong>, etc.
                     </p>
                 </div>
             </div>
@@ -188,19 +234,21 @@
                 <div class='hidden-phone'>
                 <h3><a name="wall"></a><strong>Gallery</strong></h3>
                 <section id="photos">
-                    <img src="./assets/ai/eye2.jpg">
-                    <img src="./assets/rl/cs188.png">
-                    <img src="./assets/kmeans.jpg"/>
                     <img src="./assets/cv/pic.png"/>
-                    <img src="./assets/lena_1.bmp"/>
-                    <img src="./assets/selfie/teaser.jpeg"/>
-                    <img src="./assets/rl/mdp.png"/> 
+                    <img src="./assets/cv/person.png"/>
+                    <img src="./assets/projects/soccer.png"/>
+                    <img src="./assets/topics/ip/lena_1.bmp"/>
+                    <img src="./assets/topics/ml/kmeans.jpg"/>
+                    <img src="./assets/topics/rl/mdp.png"/> 
+                    <img src="./assets/topics/rl/montezuma.png">
+                    <img src="./assets/topics/ai/graph.png">
+                    <img src="./assets/topics/health/eye2.jpg">
                 </section></div>
 
                 <div class="row">
                     <div class="span12">
                         <p>
-                            Modified from <a target="_blank" href="http://daggerfs.com/">© Yangqing Jia 2017</a>
+                            <!-- Modified from <a target="_blank" href="http://daggerfs.com/">© Jinghao Zhou 2020</a> -->
                         </p>
                     </div>
                 </div>
