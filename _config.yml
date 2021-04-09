@@ -1,12 +1,10 @@
 # Site settings
-title: Yihui He blog
-email: yihuihe@foxmail.com
-description: "Musings of a Computer Scientist."
+title: Jinghao Zhou
+email: jensen.zhoujh@gmail.com
 baseurl: ""
-url: "http://yihui-he.github.io"
-blogurl: "http://yihui-he.github.io/blog"
-#twitter_username: karpathy
-github_username:  yihui-he
+url: "http://shallowtoil.github.io"
+blogurl: "http://shallowtoil.github.io/blog"
+github_username:  shallowtoil
 
 # Build settings
 markdown: kramdown
