@@ -131,6 +131,7 @@ div.infoblock p {
 
 @media (min-width: 768px) and (max-width: 979px) {
     #footer {
-        display: none;
+        transform: scale(0.6666667);
+        left: 0;
     }
 }
