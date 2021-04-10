@@ -129,3 +129,8 @@ div.infoblock p {
     }
 }
 
+@media (min-width: 768px) and (max-width: 979px) {
+    #footer {
+        display: none;
+    }
+}
