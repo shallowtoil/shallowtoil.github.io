@@ -53,6 +53,14 @@ div.infoblock p {
 
 .abstract-text { color: #606060; }
 
+.container {
+    position: relative;
+}
+
+#main_body {
+    float: right;
+}
+
 #floating_sidebar {
     position:fixed;
     left: 0;
@@ -120,3 +128,4 @@ div.infoblock p {
         column-count:         1;
     }
 }
+
