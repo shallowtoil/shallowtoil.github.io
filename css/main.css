@@ -53,6 +53,14 @@ div.infoblock p {
 
 .abstract-text { color: #606060; }
 
+.container {
+    position: relative;
+}
+
+#main_body {
+    float: right;
+}
+
 #floating_sidebar {
     position:fixed;
     left: 0;
@@ -118,5 +126,12 @@ div.infoblock p {
         -moz-column-count:    1;
         -webkit-column-count: 1;
         column-count:         1;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 979px) {
+    #footer {
+        transform: scale(0.6666667);
+        left: 0;
     }
 }
