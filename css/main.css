@@ -49,10 +49,11 @@ div.infoblock p {
     margin-bottom: 0em;
 }
 
-div.bottom {
-    position: relative;
-    top: 10;
-}
+img.resized {
+    object-fit: contain;
+    width: 160px;
+    height: 90px;
+  }
 
 .logo-image { max-width:75%; height:auto; overflow:hidden;}
 
