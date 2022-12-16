@@ -73,6 +73,17 @@ img.resized {
     margin-bottom: -5px;
 }
 
+.list-important {
+    list-style: none;
+    border-width: 6px;
+    border-style: solid;
+    /* border-image: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%,  rgba(179,179,179) 40%) 0 0 0 1;  */
+    border-image: linear-gradient(to bottom, rgb(255, 166, 166),  rgb(255, 166, 166)) 0 0 0 1; 
+    margin-left: 9px;
+    margin-bottom: -5px;
+}
+
+
 .list-info {
     list-style: none;
     border-width: 6px;
