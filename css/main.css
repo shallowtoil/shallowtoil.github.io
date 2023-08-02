@@ -175,3 +175,23 @@ img.resized {
         left: 0;
     }
 }
+
+.flex-container {
+    display: flex;
+    justify-content: space-between;
+}
+  
+.left {
+    flex: 1;
+    text-align: left;
+}
+
+.center {
+    flex: 1;
+    text-align: left;
+}
+
+.right {
+    flex: 1;
+    text-align: right;
+}
