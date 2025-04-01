@@ -1,10 +1,19 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <meta http-equiv="refresh" content="0; URL='https://jensenzhoujh.github.io'" />
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
     <title>Redirecting...</title>
-  </head>
-  <body>
-    <p>If you're not redirected, <a href="https://jensenzhoujh.github.io">click here</a>.</p>
-  </body>
+    <script type="text/javascript">
+        // Redirect to the same path on the new domain
+        var newDomain = 'https://newname.github.io';
+        var newPath = window.location.pathname + window.location.search + window.location.hash;
+        window.location.href = newDomain + newPath;
+    </script>
+</head>
+<body>
+    <p>If you are not redirected automatically, <a id="redirectLink" href="#">click here</a>.</p>
+    <script type="text/javascript">
+        document.getElementById('redirectLink').href = newDomain + newPath;
+    </script>
+</body>
 </html>
