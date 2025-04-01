@@ -1,19 +1,16 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
+<html>
+  <head>
+    <script>
+      const path = window.location.pathname + window.location.search + window.location.hash;
+      window.location.replace('https://jensenzhoujh.github.io' + path);
+    </script>
     <title>Redirecting...</title>
-    <script type="text/javascript">
-        // Redirect to the same path on the new domain
-        var newDomain = 'https://jensenzhoujh.github.io';
-        var newPath = window.location.pathname + window.location.search + window.location.hash;
-        window.location.href = newDomain + newPath;
+  </head>
+  <body>
+    <p>If you're not redirected, <a id="link" href="#">click here</a>.</p>
+    <script>
+      document.getElementById('link').href = 'https://jensenzhoujh.github.io' + window.location.pathname;
     </script>
-</head>
-<body>
-    <p>If you are not redirected automatically, <a id="redirectLink" href="#">click here</a>.</p>
-    <script type="text/javascript">
-        document.getElementById('redirectLink').href = newDomain + newPath;
-    </script>
-</body>
+  </body>
 </html>
